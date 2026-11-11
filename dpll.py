@@ -1,5 +1,3 @@
-# dpll.py
-
 def custom_dpll(clausulas, atribuicao=None):
     if atribuicao is None:
         atribuicao = {}
