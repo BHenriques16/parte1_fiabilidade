@@ -6,7 +6,6 @@ class CNF:
         self.clausulas.append(clause)
 
 def var_id(r, c, v, n):
-    """Mapeia coordenadas para um ID único de variável booleana."""
     return r * (n * n) + c * n + v
 
 def build_cnf(n, given, less):

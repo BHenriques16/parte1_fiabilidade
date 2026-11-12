@@ -40,7 +40,7 @@ def main():
     
     print("Resultado")
     if solucao_z3 and solucao_dpll and solucao_z3 == solucao_dpll:
-        print("DPLL gerou exatamente a mesma solução que o Z3!\n")
+        print("DPLL gerou exatamente a mesma solução que o Z3.\n")
         imprimir_grelha(solucao_dpll)
     else:
         print("As soluções não coincidem ou não têm solução.")

@@ -25,7 +25,7 @@ def custom_dpll(clausulas, atribuicao=None):
         clausulas = novas_clausulas
 
     if not clausulas:
-        return atribuicao # solução
+        return atribuicao
       
     var = abs(min(clausulas, key=len)[0])
     for valor in [True, False]:
